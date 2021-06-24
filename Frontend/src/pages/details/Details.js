@@ -137,7 +137,7 @@ class Details extends React.Component {
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">Close
-                                <p class= "card-subtitle mb-2 text-muted" id="stock-info">{this.state.stockDetails.name}</p>
+                                <p class= "card-subtitle mb-2 text-muted" id="stock-info">{this.state.stockDetails.regularMarketPreviousClose}</p>
                             </li>
 
                             <li class="list-group-item">High

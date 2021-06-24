@@ -1,0 +1,29 @@
+ul.suggestion-list {
+    list-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+}
+li.suggestion-item {
+    padding: 5px 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+li.suggestion-item:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.search-dropdown-wrap {
+    position: relative;
+}
+
+li.suggestion-item a{
+    color: black;
+}
+li.suggestion-item a span{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.7rem;
+}

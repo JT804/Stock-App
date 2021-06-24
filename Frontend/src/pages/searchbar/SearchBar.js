@@ -3,7 +3,6 @@ import './SearchBar.css';
 import { Link } from "react-router-dom";
 import * as EnvConstants from '../apicall';
 import Skeleton from 'react-loading-skeleton';
-import StockItems from "../Stocklist";
 
 
 class Watchlist extends React.Component {

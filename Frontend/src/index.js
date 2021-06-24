@@ -11,8 +11,8 @@ import {
 
 ReactDOM.render(
 <div className="container">
-    <div className="row justify-content-md-center">
-      <div className="col-8">
+    <div className="row justify-content-md-center"> 
+       <div className="col-8"> 
         <div className="card-1">
           <Router>
             <Switch>

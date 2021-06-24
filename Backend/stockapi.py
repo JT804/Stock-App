@@ -13,7 +13,7 @@ def searchv2(name):
  url = "https://apidojo-yahoo-finance-v1.p.rapidapi.com/auto-complete"
  
  headers = {
- 'x-rapidapi-key': "258783ed5dmsh17db757ccde49d7p1385f6jsn0cded8be272d",
+ 'x-rapidapi-key': "9d08f6b330msh51cab31f58e4823p1886e8jsn75d64a6c92bd",
  'x-rapidapi-host': "apidojo-yahoo-finance-v1.p.rapidapi.com"
  }
  querystring = {"q": name, "region": "US"}
@@ -24,7 +24,7 @@ def details(stocklist):
  url = "https://apidojo-yahoo-finance-v1.p.rapidapi.com/market/v2/get-quotes"
  
  headers = {
- 'x-rapidapi-key': "2b7d915395msh868aa4f558f6aabp1fdb73jsnb8de1ef45c96",
+ 'x-rapidapi-key': "9d08f6b330msh51cab31f58e4823p1886e8jsn75d64a6c92bd",
  'x-rapidapi-host': "apidojo-yahoo-finance-v1.p.rapidapi.com"
  }
  querystring = {"region":"US","symbols":stocklist}

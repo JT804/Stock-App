@@ -3,12 +3,10 @@ import ReactDOM from 'react-dom';
 import Watchlist from './pages/watchlist/Watchlist';
 import Details from './pages/details/Details';
 
-
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 ReactDOM.render(
@@ -38,15 +36,3 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-export const getStockApi = async () => {
-
-  const res = await fetch('http://127.0.0.1:5000/stocks')
-
-  const filteredStocks = await res.json()
-
-  return {
-    props: {
-      filteredStocks
-    }
-  };
-};

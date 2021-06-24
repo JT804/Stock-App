@@ -1,7 +1,6 @@
 import './Details.css';
 import { Link, withRouter } from "react-router-dom";
 import React from 'react';
-import Watchlist from '../watchlist/Watchlist';
 import * as EnvConstants from '../apicall';
 import Skeleton from 'react-loading-skeleton';
 

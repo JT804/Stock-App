@@ -9,7 +9,6 @@ import StockItems from "../Stocklist";
 
 
 
-
 class Watchlist extends React.Component {
     constructor(props) {
         super(props);
@@ -167,16 +166,7 @@ export default Watchlist
 
 
 
-        {/* //   if (!localStorage.stockSymbols) { */}
-        //     localStorage.stockSymbols = 'EQIX,AAPL,WMT,TSLA,AMZN';
-        //   }
-        //   this.setState({
-        //     stockSymbols: localStorage.stockSymbols
-        //   }, () => {
-        //     this.populateWatchlist();
-        //     console.log(this.state);
-        //   });
-        // } 
+   
    
 
 
@@ -186,46 +176,3 @@ export default Watchlist
 
 
 
-{/* // <ul class="list-group list-group">
-                                        
-// <li class="list-group-item"><Link to="/details">{symbol}</Link>{" "}
-    
-//     <a class="card-subtitle mb-2 text-muted">{name}</a>
-    
-//         <p class="card-subtitle text-primary" id="stock-info">{close}</p>
-    
-// </li>
-    
-// <li class="list-group-item"><Link to="/details">{symbol}</Link>{" "}
-    
-//     <a class="card-subtitle mb-2 text-muted">{name}</a>
-    
-//         <p class="card-subtitle  text-primary" id="stock-info">{close}</p>
-    
-// </li>
-    
-// <li class="list-group-item"><Link to="/details">{symbol}</Link>{" "}
-    
-//     <a class="card-subtitle mb-2 text-muted">{name}</a>
-        
-//         <p class="card-subtitle  text-primary" id="stock-info">{close}</p>
-            
-// </li>
-    
-// <li class="list-group-item"><Link to="/details">{symbol}</Link>{" "}
-    
-//     <a class="card-subtitle mb-2 text-muted">{name}</a>
-        
-//         <p class="card-subtitle text-primary" id="stock-info">{close}</p>
-            
-// </li>
-    
-// <li class="list-group-item"><Link to="/details">{symbol}</Link>{" "}
-    
-//     <a class="card-subtitle mb-2 text-muted">{name}</a>
-        
-//         <p class="card-subtitle text-primary" id="stock-info">{close}</p>
-            
-// </li>
-    
-// </ul> */}
